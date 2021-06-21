@@ -57,7 +57,7 @@ INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city, cust_state, c
 VALUES('1000000005', 'The Toy Store', '4545 53rd Street', 'Chicago', 'IL', '54545', 'USA', 'Kim Howard');
 
 
-/*创建售出商品表*/
+/*创建订单商品表*/
 CREATE TABLE OrderItems
 (
   order_num  int          NOT NULL ,
@@ -67,7 +67,7 @@ CREATE TABLE OrderItems
   item_price decimal(8,2) NOT NULL 
 );
 
-/*插入售出商品数据*/
+/*插入订单商品数据*/
 INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
 VALUES(20005, 1, 'BR01', 100, 5.49);
 INSERT INTO OrderItems(order_num, order_item, prod_id, quantity, item_price)
