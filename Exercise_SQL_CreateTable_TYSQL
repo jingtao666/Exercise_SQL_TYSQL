@@ -1,3 +1,5 @@
+/*这是《必知必会SQL（第五版）》书中相关的案例*/
+
 /*创建商品表*/
 CREATE TABLE Products(
   prod_id    char(10)      NOT NULL ,
